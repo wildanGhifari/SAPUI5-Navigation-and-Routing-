@@ -1,13 +1,10 @@
 <mvc:View
-    controllerName="ap.ui.demo.nav.controller.Home"
-    xmlns:mvc="sap.ui.core.mvc"
-    xmlns="sap.m">
-    <pages>
-        <Page>
-            <content>
-                <Button
-                    text="{i18n>iWantToNavigate}" class="sapUiTinyMarginEnd" />
-            </content>
-        </Page>
-    </pages>
+    controllerName="sap.ui.demo.nav.controller.Home"
+    xmlns="sap.m"
+    xmlns:mvc="sap.ui.core.mvc">
+    <Page>
+        <content>
+            <Button text="{i18n>iWantToNavigate}" class="sapUiTinyMarginEnd" />
+        </content>
+    </Page>
 </mvc:View>
